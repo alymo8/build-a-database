@@ -1,0 +1,162 @@
+
+
+ Directory of C:\Users\alymo\eclipse-workspace\database\Debug
+
+02/12/2019  15:27    <DIR>          .
+02/12/2019  15:27    <DIR>          ..
+02/12/2019  15:14                25 15){
+02/12/2019  12:18            74,422 Aly A6.exe
+02/12/2019  15:21                 0 cd
+02/12/2019  15:21                 0 database
+02/12/2019  15:27            74,811 database.exe
+02/12/2019  15:27            32,856 database.o
+02/12/2019  15:21                 0 dir
+02/12/2019  15:14                 0 Last)
+02/12/2019  15:21                 0 LI
+02/12/2019  15:21                 0 LN
+02/12/2019  15:14                 0 marks)
+28/11/2019  18:01               150 marks.txt
+28/11/2019  18:01             1,064 NamesIDs.txt
+              13 File(s)        183,328 bytes
+               2 Dir(s)  332,082,610,176 bytes free
+
+C:\Users\alymo\eclipse-workspace\database\Debug>database NamesIDs.txt marks.txt
+Building database...
+Finished, 50 records found...
+sdb> LN
+Student Record Database sorted by Last Name
+
+Renita Allbright                1716    81
+Kortney Arner                   1371    84
+Francene Aylor                  2728    72
+Dorethea Benes                  2583    97
+Dara Boyette                    1974    81
+Teisha Britto                   2871    68
+Cristobal Butcher               2969    77
+Shantelle Cassady               2079    94
+Tasia Cranford                  2274    73
+Yuonne Daggett                  2029    74
+Caleb Denning                   1257    71
+Suzanna Duff                    1583    91
+Billy Ennals                    2191    82
+Edward Follett                  1345    71
+Loree Foor                      1370    74
+Clarisa Freeze                  2135    70
+Dante Galentine                 1194    89
+Marvella Greenlee               2582    82
+Sarita Gutierez                 1512    95
+Eleanora Hamel                  1266    78
+Kamala Harbison                 1645    92
+Lavinia Jenkinson               2959    86
+Kerstin Kohls                   2130    92
+Lucia Lally                     1359    76
+Vanda Lamarr                    1456    82
+Kristyn Lanoue                  2101    72
+Filomena Leasure                1946    79
+Sammie Mackay                   2330    90
+Barton Mango                    1198    68
+Dewey Manzi                     2563    77
+Kori Marsch                     2524    65
+Alona Mclees                    1097    99
+Felicita Mushrush               2825    76
+Mariann Novack                  1549    79
+Dianne Plaisted                 2637    57
+Matilda Poll                    2729    75
+Anika Pop                       1452    76
+Luba Quaranta                   2790    75
+Tamie Roza                      2586    93
+Joleen Saulnier                 2356    81
+Holley Sia                      1497    74
+Matilde Spece                   2917    68
+Nia Stutes                      2872    97
+Suzi Tait                       2519    82
+Adria Tamplin                   2675    94
+Hyon Thibodaux                  2985    87
+Yvette Wojtowicz                2667    59
+Stasia Wolford                  2193    68
+Jay Woll                        2986    76
+Ciera Woolery                   1531    81
+
+sdb> LI
+Student Record Database sorted by Student ID
+
+Alona Mclees                    1097    99
+Dante Galentine                 1194    89
+Barton Mango                    1198    68
+Caleb Denning                   1257    71
+Eleanora Hamel                  1266    78
+Edward Follett                  1345    71
+Lucia Lally                     1359    76
+Loree Foor                      1370    74
+Kortney Arner                   1371    84
+Anika Pop                       1452    76
+Vanda Lamarr                    1456    82
+Holley Sia                      1497    74
+Sarita Gutierez                 1512    95
+Ciera Woolery                   1531    81
+Mariann Novack                  1549    79
+Suzanna Duff                    1583    91
+Kamala Harbison                 1645    92
+Renita Allbright                1716    81
+Filomena Leasure                1946    79
+Dara Boyette                    1974    81
+Yuonne Daggett                  2029    74
+Shantelle Cassady               2079    94
+Kristyn Lanoue                  2101    72
+Kerstin Kohls                   2130    92
+Clarisa Freeze                  2135    70
+Billy Ennals                    2191    82
+Stasia Wolford                  2193    68
+Tasia Cranford                  2274    73
+Sammie Mackay                   2330    90
+Joleen Saulnier                 2356    81
+Suzi Tait                       2519    82
+Kori Marsch                     2524    65
+Dewey Manzi                     2563    77
+Marvella Greenlee               2582    82
+Dorethea Benes                  2583    97
+Tamie Roza                      2586    93
+Dianne Plaisted                 2637    57
+Yvette Wojtowicz                2667    59
+Adria Tamplin                   2675    94
+Francene Aylor                  2728    72
+Matilda Poll                    2729    75
+Luba Quaranta                   2790    75
+Felicita Mushrush               2825    76
+Teisha Britto                   2871    68
+Nia Stutes                      2872    97
+Matilde Spece                   2917    68
+Lavinia Jenkinson               2959    86
+Cristobal Butcher               2969    77
+Hyon Thibodaux                  2985    87
+Jay Woll                        2986    76
+
+sdb> FN
+Enter name to search: Freeze
+
+Student Name:           Clarisa Freeze
+Student ID:             2135
+Total Grade:            70
+
+sdb> FI
+Enter ID to search: 2519
+
+Student Name:           Suzi Tait
+Student ID:             2519
+Total Grade:            82
+
+sdb> foo
+Command not understood.
+
+sdb> FN
+Enter name to search: Fubar
+There is no student with that name.
+
+sdb> FI
+Enter ID to search: 0
+There is no student with that ID.
+
+sdb> QUIT
+Program terminated...
+
+C:\Users\alymo\eclipse-workspace\database\Debug>
